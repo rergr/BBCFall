@@ -20,7 +20,7 @@ export default function Header({session}) {
     return (
         <div className={styles.container}>
             <header className={styles.header}>
-                <h1 className={styles.title}>МОЙ БЛОГ</h1>
+                <h1 className={styles.title}>Союз Советских Социалистических Республик (СССР)</h1>
                 <button
                     className={`${styles.menuButton} ${menuOpen ? styles.menuButtonOpen : ''}`}
                     onClick={handleMenuToggle}
