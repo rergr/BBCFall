@@ -1,6 +1,7 @@
 .container {
-    text-align: center;
+    margin-bottom: 5rem;
 }
+
 
 .deleteBtn, .editBtn {
     background-color: gold;

@@ -24,7 +24,7 @@ export default function Index({session}) {
                             <li key={post.id} className={'post'}>
                                 <Link  href={`/posts/${post.id}`} style={{ textDecoration: 'none'}}>
                                     <h1>{post.title}</h1>
-                                    <p>{post.text}</p>
+                                    {/*<p>{post.text}</p>*/}
                                 </Link>
                             </li>
 

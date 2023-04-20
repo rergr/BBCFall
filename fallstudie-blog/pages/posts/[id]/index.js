@@ -28,7 +28,7 @@ export default function Index({session}) {
     }
     if (!session.user) {
         return (
-            <div>
+            <div className={styles.container}>
                 <ul className='posts'>
                     <li key={post.id} className={`post ${styles.container}` }>
                         <h1>{post.title}</h1>
