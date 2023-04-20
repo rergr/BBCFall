@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileBox {
+    padding: 20px;
+    background-color: darkred;
+    color: gold;
+    text-align: center;
+    width: 50%;
+    margin: 15px;
+}
+
+.profileName {
+    font-size: 40px;
+}
+
+.profileStatus {
+    background-color: gold; /* Default color for true */
+}
+.profileStatus.false {
+    background-color: blue; /* Override with red for false */
+}

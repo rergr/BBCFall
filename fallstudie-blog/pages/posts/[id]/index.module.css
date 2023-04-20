@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+}
+
+.deleteBtn, .editBtn {
+    background-color: gold;
+    color: darkred;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    background-color: darkred;
+    color: gold;
+}
