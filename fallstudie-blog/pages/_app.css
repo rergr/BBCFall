@@ -14,8 +14,19 @@ body {
     min-height: 100vh;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hammer_and_sickle.svg/550px-Hammer_and_sickle.svg.png?20230201070039');
     background-repeat: repeat;
-
+    background-size: 200px;
+    background-position: top left;
+    animation: diagonalMovement 20s linear infinite;
 }
+
+@keyframes diagonalMovement {
+    from { background-position: top left; }
+    to {
+        background-position: calc(100vw - 200px) calc(100vh - 200px);
+    }
+}
+
+
 body #__next {
     height: auto;
     min-height: 100vh;

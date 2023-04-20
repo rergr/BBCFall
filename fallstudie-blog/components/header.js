@@ -19,6 +19,7 @@ export default function Header({session}) {
 
     return (
         <div className={styles.container}>
+
             <header className={styles.header}>
                 <h1 className={styles.title}>Союз Советских Социалистических Республик (СССР)</h1>
                 <button

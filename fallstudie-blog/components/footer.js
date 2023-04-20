@@ -7,7 +7,10 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.container}>
-                <p>&copy; {currentYear} My Website. All Rights Reserved.</p>
+                <p>&copy; {currentYear} My Website. All Rights Reserved by The CCCP.</p>
+                <audio className={styles.ussran} controls loop={true} autoPlay={true}>
+                    <source src="/ussran.mp3" type="audio/mpeg"/>
+                </audio>
             </div>
         </footer>
     )

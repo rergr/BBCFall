@@ -5,7 +5,7 @@
 }
 
 .profileBox {
-    padding: 20px;
+    padding: 15px;
     background-color: darkred;
     color: gold;
     text-align: center;
@@ -17,9 +17,4 @@
     font-size: 40px;
 }
 
-.profileStatus {
-    background-color: gold; /* Default color for true */
-}
-.profileStatus.false {
-    background-color: blue; /* Override with red for false */
-}
+
