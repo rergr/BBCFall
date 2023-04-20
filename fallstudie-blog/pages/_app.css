@@ -20,11 +20,14 @@ body {
 }
 
 @keyframes diagonalMovement {
-    from { background-position: top left; }
-    to {
+    0% {
+        background-position: top left;
+    }
+    100% {
         background-position: calc(100vw - 200px) calc(100vh - 200px);
     }
 }
+
 
 
 body #__next {
